@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuffixTreeSharp", "SuffixTreeSharp\SuffixTreeSharp.csproj", "{C0986C3D-E80F-4753-B0AD-F185EB838A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuffixTreeSharp.Test", "SuffixTreeSharp.Test\SuffixTreeSharp.Test.csproj", "{902F9192-EED9-44B6-8B39-222B725545E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0986C3D-E80F-4753-B0AD-F185EB838A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0986C3D-E80F-4753-B0AD-F185EB838A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0986C3D-E80F-4753-B0AD-F185EB838A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0986C3D-E80F-4753-B0AD-F185EB838A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902F9192-EED9-44B6-8B39-222B725545E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902F9192-EED9-44B6-8B39-222B725545E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902F9192-EED9-44B6-8B39-222B725545E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902F9192-EED9-44B6-8B39-222B725545E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3879536C-DBC5-462A-82F3-AB8CED5E0F58}
+	EndGlobalSection
+EndGlobal
