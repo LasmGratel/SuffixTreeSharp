@@ -1,5 +1,7 @@
 # SuffixTreeSharp
-[![NuGet Status](http://nugetstatus.com/SuffixTreeSharp.png)](http://nugetstatus.com/packages/SuffixTreeSharp)
+[![Nuget](https://img.shields.io/nuget/v/SuffixTreeSharp)](https://www.nuget.org/packages/SuffixTreeSharp/)
+
+<https://www.nuget.org/packages/SuffixTreeSharp/>
 
 Generalized Suffix Tree in pure C#
 
