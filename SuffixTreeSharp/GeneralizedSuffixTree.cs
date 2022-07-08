@@ -192,7 +192,7 @@ namespace SuffixTreeSharp
 
                 // need to split the edge
                 var newLabel = label.Substring(str.Length);
-                if (!label.StartsWith(str)) throw new Exception();
+                if (!label.StartsWith(str, StringComparison.Ordinal)) throw new Exception();
 
                 // build a new node
                 var r = new Node();
@@ -221,12 +221,12 @@ namespace SuffixTreeSharp
                 return (true, s);
             }
 
-            if (remainder.StartsWith(e.Label))
+            if (remainder.StartsWith(e.Label, StringComparison.Ordinal))
             {
                 return (true, s);
             }
 
-            if (e.Label.StartsWith(remainder))
+            if (e.Label.StartsWith(remainder, StringComparison.Ordinal))
             {
                 // need to split as above
                 var newNode = new Node();
@@ -266,7 +266,7 @@ namespace SuffixTreeSharp
                 var str = inputstr;
                 var g = s.Edges[str[0]];
                 // descend the tree as long as a proper label is found
-                while (g != null && str.StartsWith(g.Label))
+                while (g != null && str.StartsWith(g.Label, StringComparison.Ordinal))
                 {
                     str = str.Substring(g.Label.Length);
                     currentNode = g.Dest;
